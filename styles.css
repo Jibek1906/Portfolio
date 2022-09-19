@@ -31,11 +31,7 @@ h4{
     margin: 0;
 }
 
-form{
-    padding-inline-start: 60px;
-    margin: 10px;
 
-}
 .text{
     padding-inline-start: 54px;
     width: 400px;
@@ -59,36 +55,6 @@ form{
 
 }
 
-
-.last {
-    display: block;
-    margin-bottom: 100px;
-}
-
-.s {
-    background-color: rgb(16, 129, 133);
-    color: white;
-    width: 150px;
-    height: 30px;
-    font-size: 20px;
-    border-width: 0;
-    margin: 5px;
-    margin-left: 105px;
-   
-
-    
-}
-.s:hover {
-    background-color: turquoise;
-
-}
- a:hover {
-     color:violet;
- }
- .s:active {
-     background-color:tomato;
- }
-
  .hello {
      margin: 10px;
 
@@ -97,3 +63,9 @@ form{
  .fr {
     color: #808080;
  }
+
+
+ h3 {
+    padding-inline-start: 10px;
+ }
+

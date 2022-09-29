@@ -23,6 +23,7 @@ h2{
     display: inline-block;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
+    background-color: #808080;
 }
 
 h4{
@@ -31,29 +32,6 @@ h4{
     margin: 0;
 }
 
-
-.text{
-    padding-inline-start: 54px;
-    width: 400px;
-}
-
-
-.skills{
-    background-color: #808080;
-}
-
-.lan{
-    background-color: #808080;
-}
-
-.contact {
-    background-color: #808080;
-}
-
-.work  {
-    background-color: #808080;
-
-}
 
  .hello {
      margin: 10px;
@@ -70,26 +48,108 @@ h4{
  }
 
  .cont{
-    width: 200px;
+    width: 80px;
     height: 60px;
-    border: 5px solid rgb(39, 39, 39);
+    border: 5px solid rgb(200, 74, 74);
     margin-inline-start: 10px;
     margin-bottom: 10px;
+    background-color: rgb(209, 137, 137);
+    
     
  }
+
+ .home{
+    width: 90px;
+    height: 60px;
+    border: 5px solid rgb(39, 39, 39);
+    display: inline-block;
+    margin-inline-start: 250px;
+    background-color: #593513;
+ 
+ }
+
  .in {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: rgba(51, 122, 51, 0.795);
     display: flex;
+    border-radius: 0%;
     align-items: center;
     justify-content: center;
     border: 5px solid rgb(14, 40, 17);
-    transition: transform 2s;
+    left: 0;
+
+    position: relative;
+    animation-timing-function: linears;
+    animation-iteration-count: infinite;
+    animation-name: inn; 
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.second{
+    margin-inline-start: 280px;
+    margin-inline-end: 1000px;
+
+}
+
+.ws{
+    margin-block-start: 5px;
+}
+
+.r{
+    margin-block-end: 10px;
+}
+
+.me{
+    width: 40px;
+    height: 40px;
+    background: rgba(51, 122, 51, 0.795);
+    display: flex;
+    border-radius: 0%;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(14, 40, 17);
+    left: 0;
+
+    position: relative;
+    animation-timing-function: linears;
+    animation-iteration-count: infinite;
+    animation-name: me; 
+    animation-duration: 1s;
+    animation-direction: alternate;
+
+}
+
+.first{float:left;}
+.second{float:left;}
+
+
+.cont {float:left;}
+
+
+ @keyframes inn{
+    0%{
+        left:0;
+    }
+    50%{
+        border-radius: 100%;
+    }
+    100%{
+        left: 380px;
+    }
+ }
+
+ @keyframes me {
+    0%{
+        left:0;
+    }
+    50%{
+        border-radius: 100%;
+    }
+    100%{
+        left: 31px;
+    }
     
-
  }
 
- .cont:hover  .in{
-    transform: translateX(234%);
- }

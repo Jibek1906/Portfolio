@@ -3,6 +3,8 @@
     <head>
 <title>Portfolio</title>
 <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="1200px">
 <style>
     .rightpic {
      float: left; 
@@ -22,6 +24,7 @@
 <div> <h2>About myself</h2> </div>
 
 <p><h3>  My name is Zhibek.I'm from Bishkek. I' m studying in Ala Too University now. At the second course. In my family, they are five people. Trere are my Mom, Dad, two elder sisters and me. In my free-time, I like to watch Youtube and surfing internet. </h3></p>
+
 
 
         
@@ -77,6 +80,17 @@
                 Arabaev University / Bishkek
                 </li>
         </ul>
+        <div>
+        <h2 id="h2">Нажми если считаешь, что Луффи станет королем пиратов</h2></div>
+        <div id="score">0</div>
+        <div id="button">100%</div>
+        <script>
+        let counter = 0;
+            document.getElementById('button').onclick = () => {
+            counter = counter + 1;
+            document.getElementById('score').innerText = counter;
+            };
+        </script>
 
         <div>
             <h2>How I spend my weekdays</h2>
@@ -94,9 +108,6 @@
         <div><h3 class="r">My room</h3>
 <div class="cont">
 <div class="me">Me</div>
-
-</div>
-        
     
     
     </body>

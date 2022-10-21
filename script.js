@@ -1,3 +1,5 @@
+let counter = 0;
 document.getElementById('button').onclick = () => {
-    // do something here
-  };
+counter = counter + 1;
+document.getElementById('score').innerText = counter;
+};
